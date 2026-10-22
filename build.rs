@@ -29,7 +29,7 @@ fn main() {
         // as wingetcreate's Vestris.ResourceLib.
         .set_manifest_file("src/app.manifest")
         .set("FileVersion", version)
-        .set("ProductVersion", version)
+        .set("Productversion", version)
         .set_version_info(VersionInfo::FILEVERSION, numeric_version)
         .set_version_info(VersionInfo::PRODUCTVERSION, numeric_version);
 
